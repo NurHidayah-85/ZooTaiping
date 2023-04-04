@@ -117,6 +117,8 @@ public static void main (String[] args)
             
             
        //answer 3
+
+
         
        int j=0;
        for ( j = 0; j<zoo.length; j++)
@@ -131,6 +133,7 @@ public static void main (String[] args)
    
        
    
+
       
       
       
