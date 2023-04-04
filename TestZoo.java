@@ -120,7 +120,7 @@ public static void main (String[] args)
         
               for ( j = 0; j<zoo.length; j++)
               {
-                  if (zoo[j].isPackageC()==true && zoo[j] instanceof NightVisit)
+                  if (zoo[j] instanceof NightVisit && ((NightVisit)zoo[j]).isPackageC())
                   {
                       System.out.println(zoo[j]);
                   }
