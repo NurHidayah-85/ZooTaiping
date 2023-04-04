@@ -118,13 +118,22 @@ public static void main (String[] args)
             
        //answer 3
 
-              for ( j = 0; j<zoo.length; j++)
-              {
-                  if (zoo[j] instanceof NightVisit && ((NightVisit)zoo[j]).isPackageC())
-                  {
-                      System.out.println(zoo[j]);
-                  }
-            }
+
+        
+       int j=0;
+       for ( j = 0; j<zoo.length; j++)
+                 {
+                    
+                     if (zoo[j] instanceof NightVisit && ((NightVisit)zoo[j]).isPackageC())
+                     {
+                         System.out.println(zoo[j]);
+                     }
+                 }
+           
+   
+       
+   
+
       
       
       
