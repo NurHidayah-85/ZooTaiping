@@ -21,7 +21,7 @@ public class NightVisit extends ZooTaiping {
     
         packageA = pA;
         packageB = pB;
-        packageA = pC;
+        packageC = pC;
         
     }
 
