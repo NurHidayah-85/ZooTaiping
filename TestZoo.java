@@ -122,12 +122,9 @@ public static void main (String[] args)
               {
                   if (zoo[j].isPackageC()==true && zoo[j] instanceof NightVisit)
                   {
-                      
+                      System.out.println(zoo[j]);
                   }
-       
-            {
-                System.out.println(zoo[j]);
-            }
+              }
       
       
       
